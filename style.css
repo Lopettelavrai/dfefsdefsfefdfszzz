@@ -1,0 +1,340 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#head {
+    margin-top: -0.4%;
+    background: rgb(10,118,180);
+background: linear-gradient(140deg, rgba(10,118,180,1) 0%, rgba(9,9,121,1) 71%, rgba(19,14,103,1) 93%);
+    border-radius: 10px;
+    height: 470px;
+    width: 100%;
+}
+
+.Logo1 {
+    bottom: auto;
+    position: fixed;
+margin-top: -6%;
+margin-left: -1.5%;
+width:350px;
+}
+
+.cartoondoc {
+    position: absolute;
+    width: 500px;
+    margin-top: 4.27979%;
+    margin-left: 60%;
+    rotate: 1deg;
+}
+
+#trouvmed {
+    font-size: 85px;
+    position:absolute;
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 300px;
+    @import url('https://fonts.googleapis.com/css2?family=Murecho:wght@700&display=swap');
+    font-family: 'Murecho', sans-serif;
+font-weight: bold;
+}
+
+.nosgeneralistes {
+    font-size: 150%;
+    height: 7%;
+    width: 15%;
+    position: absolute;
+background-color: rgba(255, 255, 255, 0);
+border-radius: 12px;
+margin-top: 18%;
+margin-left: 20%;
+color: rgb(255, 255, 255);
+border: solid white;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+.nosgeneralistes:hover {
+    background-color: white;
+    color: rgb(10, 118, 180);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+#fcard {
+    position: absolute;
+    background-color: rgba(112, 112, 112, 0.192);
+    height: 40%;
+    width: 15%;
+    backdrop-filter: blur(5px);
+    margin-top: 23%;
+    margin-left: 25%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.616) -3px 3px 12px;
+}
+
+#fcontent {
+    
+}
+
+.fcontent {
+    position: absolute;
+    border-radius: 10%;
+    width: 50%;
+}
+
+#psy {
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 19%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.fcontacter {
+    box-shadow: rgb(10, 118, 180) 0px 0px 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10);
+    height: 10%;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 34%;
+    background-color: rgb(10, 118, 180);
+    border: solid rgb(10, 118, 180);
+    z-index: 4;
+}
+
+.fcontacter:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10);
+    height: 12%;
+    width: 32%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 36%;
+    background-color: rgb(209, 209, 209);
+    border: solid rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+#fpres {
+    margin-top: 75%;
+    margin-left: 3%;
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+#fnom {
+    position: absolute;
+    color: aliceblue;
+    margin-left: 55%;
+    margin-top: 10%;
+    @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#scard {
+    position: absolute;
+    background-color: rgba(112, 112, 112, 0.192);
+    height: 40%;
+    width: 15%;
+    backdrop-filter: blur(5px);
+    margin-top: 23%;
+    margin-left: 47%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.616) -3px 3px 12px;
+}
+
+#scontent {
+    
+}
+
+.scontent {
+    position: absolute;
+    border-radius: 10%;
+    width: 50%;
+}
+
+#skine {
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 7%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.scontacter {
+    box-shadow: rgb(10, 118, 180) 0px 0px 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10);
+    height: 10%;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 34%;
+    background-color: rgb(10, 118, 180);
+    border: solid rgb(10, 118, 180);
+    z-index: 4;
+}
+
+.scontacter:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10);
+    height: 12%;
+    width: 32%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 36%;
+    background-color: rgb(209, 209, 209);
+    border: solid rgb(209, 209, 209);
+    cursor: pointer;
+    z-index: 4;
+}
+
+#spres {
+    margin-top: 75%;
+    margin-left: 3%;
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+#actus {
+    background: rgb(15,32,39);
+background: linear-gradient(140deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 50%, rgba(44,83,100,1) 100%);
+    margin-top: 30%;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.actus {
+    margin-top: -18%;
+    margin-left: 17%;
+
+}
+
+#factu {
+    background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+    height: 250px;
+    width: 420px;
+    backdrop-filter: blur(15);
+    margin-left: 100px;
+    margin-top: -200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;
+
+}
+
+.actuimg {
+    position: relative  ;
+    border-radius: 15px;
+    width: 50%;
+    z-index: 3;
+    
+}
+
+#actutext {
+    position: absolute;
+    color: white;
+    margin-top: -6%;
+    margin-left: 11.5%;
+    font-size: 24px;
+    font-family: "gotham";
+    @font-face {
+        font-family: "gotham";
+        src: url("/font/Gotham-Black.otf");
+    }
+    font-weight: 800;
+    text-transform: uppercase;
+    }
+
+    .btnactu {
+        position: absolute;
+        font-size: large;
+        width: 170px;
+        height: 70px;
+        color: aliceblue;
+        background-image: linear-gradient(to left, #4776E6 0%, #8E54E9  50%, #4776E6  100%);
+        background-size: 200% auto;
+        border-width: 0;
+        border-radius: 15px;
+        margin-top: 9.4%;
+        margin-left: -11%;
+    }
+
+    .btnactu:hover {
+        background-image: linear-gradient(to right, #8E54E9 0%, #4776E6  100%, #4776E6  0%);
+        background-size: 200% auto;
+        cursor: pointer;
+    }
+
+    #contentactu {
+        height: 100px;
+        width: 30%;
+        margin-left: 55%;
+        margin-top: -80px;
+        color: aliceblue;
+        @font-face {
+            font-family: Roboto;
+            src: url(roboto.regular.ttf);
+        }
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    #sactu {
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        margin-left: 740px;
+        margin-top: -250px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;
+    }
+
+    #tactu {
+        background: linear-gradient(90deg, #e3ffe75d 0%, #d9e7ff88 100%);
+        height: 250px;
+        width: 420px;
+        backdrop-filter: blur(15);
+        margin-left: 1370px;
+        margin-top: -250px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.719) -3px 4px 20px;
+        overflow: hidden;
+    }
+
+    #tcontentactu {
+        height: 100px;
+        width: 30%;
+        margin-left: 55%;
+        margin-top: -55px;
+        color: aliceblue;
+        @font-face {
+            font-family: Roboto;
+            src: url(roboto.regular.ttf);
+        }
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+    }
